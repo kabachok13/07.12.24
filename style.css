@@ -8,6 +8,7 @@ body, * {
 h2 {
     color: #fff;
     font-size: 30px;
+    display: inline-block;
 }
 
 .container1 {
@@ -20,32 +21,31 @@ h2 {
 header, footer {
     background-color: #9fc8c8;
     display: inline-block;
-    width: 95%;
-    padding: 10px 0px;
+    width: 850px ;
+    padding: 20px 0px;
     margin: 25px;
 }
 
 .container2 {
     display: inline-block;
-    width: 95%;
-    margin-left: 5px;
+    width: 850px;
 }
 
-.aside {
+aside {
     background-color: #7fb5b5;
     display: inline-block;
-    width: 250px;
-    height: 400px;
+    padding: 190px 81px;
     margin-right: 25px;
     vertical-align: top;
 }
 
-.article {
+article {
     display: inline-block;
     background-color: #ff808a;
     text-align: center;
     width: 570px;
-    height: 400px;
+    height: 413px;
+    vertical-align: middle;
 }
 
 .menu {
@@ -85,15 +85,10 @@ header, footer {
     background-color: #555;
 }
 
-.container3 {
-    display: inline-block;
-}
-
 .image {
     display: inline-block;
     background-color: lightgray;
-    width: 160px;
-    height: 160px;
+    padding: 60px 35px;
     margin-right: 17px;
     margin-top: 20px;
 }
@@ -102,17 +97,7 @@ header, footer {
     margin-right: 0;
 }
 
-article span {
+article > h2 {
     display: inline-block;
-    margin-top: 110px;
-}
-
-aside span {
-    display: inline-block;
-    margin-top: 170px;
-}
-
-.image span {
-    display: inline-block;
-    margin-top: 60px;
+    margin-top: 130px;
 }
